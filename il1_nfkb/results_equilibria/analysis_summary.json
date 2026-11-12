@@ -1,0 +1,244 @@
+{
+  "parameters": {
+    "a1": 0.0225,
+    "d1": 0.00125,
+    "a2": 0.5,
+    "d2": 0.0005,
+    "k2": 0.0204,
+    "a3": 0.5,
+    "d3": 0.0005,
+    "k3": 2.25e-05,
+    "a4": 0.185,
+    "d4": 0.00125,
+    "k4": 0.00012,
+    "k5": 0.00407,
+    "k6": 1.54e-06,
+    "k7": 0.00028,
+    "k8": 0.00408,
+    "k9": 0.000113,
+    "a10": 0.0003,
+    "d10": 0.0002,
+    "a11": 0.09,
+    "d11": 8e-05,
+    "a12": 0.5,
+    "k11": 0.0165,
+    "d12": 0.0005,
+    "k13": 0.0138,
+    "a14": 0.5,
+    "d14": 0.0005,
+    "a15": 0.5,
+    "d15": 0.0005,
+    "a16": 0.5,
+    "d16": 0.0005,
+    "a17": 0.5,
+    "d17": 0.0005,
+    "a18": 0.5,
+    "d18": 0.0005,
+    "k19": 0.00012
+  },
+  "fixed_totals": [
+    0.1,
+    0.15,
+    0.1,
+    0.05,
+    0.05,
+    0.05
+  ],
+  "equilibrium": [
+    0.0,
+    0.17946677959998666,
+    0.0,
+    0.00028359566944367436,
+    0.0,
+    0.09749624571413626,
+    0.0,
+    0.005508189123374156,
+    0.14173123123069545,
+    0.00037278270092222244,
+    0.0018473759154968776,
+    0.05096312499175344,
+    0.0009631249917534193,
+    0.04908385933741101,
+    4.698432916444742e-05,
+    0.0023061722037703548,
+    0.002353156532934803,
+    0.005426784187374862,
+    0.007779940720309671,
+    0.04222005927969032,
+    0.0,
+    0.0
+  ],
+  "baseline_metrics": {
+    "physical": true,
+    "full_residual_inf": 1.0164395367051604e-20,
+    "conservation_error_inf": 9.71445146547012e-16,
+    "spectral_abscissa": -7.379645413953123e-06,
+    "leading_real": -7.379645413953123e-06,
+    "leading_imag_abs": 0.0,
+    "stability": "stabilna",
+    "scalar_slope_at_root": 123.4045442094448,
+    "eigen_real": [
+      -0.18014602505087984,
+      -0.07158244082997155,
+      -0.02413807704865054,
+      -0.021110589380586457,
+      -0.014031601684884605,
+      -0.004550559758186284,
+      -0.0006477384577319144,
+      -7.379645413953123e-06,
+      -3.5383820758972894e-05,
+      -0.00027950475629727966,
+      -0.026471629140347105,
+      -0.025083472599923645,
+      -0.007515492337245566,
+      -0.0023909795697197285,
+      -0.02161282126962923,
+      -0.00011720837021592957
+    ],
+    "eigen_imag": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "scans": {
+    "k11": {
+      "factor_range": [
+        0.01,
+        100.0
+      ],
+      "points": 81,
+      "max_spectral_abscissa": -7.334626618301928e-06,
+      "min_spectral_abscissa": -7.380424349218738e-06,
+      "maximum_detected_roots": 1,
+      "max_equilibrium_residual": 3.049318610115481e-20,
+      "min_scalar_slope_at_root": 121.44977692833473,
+      "hopf_candidates": []
+    },
+    "k7": {
+      "factor_range": [
+        0.01,
+        100.0
+      ],
+      "points": 81,
+      "max_spectral_abscissa": -1.2035965167521537e-06,
+      "min_spectral_abscissa": -1.5251675486283885e-05,
+      "maximum_detected_roots": 1,
+      "max_equilibrium_residual": 4.336808689942018e-19,
+      "min_scalar_slope_at_root": 2.9709341737366715,
+      "hopf_candidates": []
+    },
+    "k8": {
+      "factor_range": [
+        0.01,
+        100.0
+      ],
+      "points": 81,
+      "max_spectral_abscissa": -1.2035965194110562e-06,
+      "min_spectral_abscissa": -1.5251675486285523e-05,
+      "maximum_detected_roots": 1,
+      "max_equilibrium_residual": 8.673617379884035e-19,
+      "min_scalar_slope_at_root": 2.9709341737366715,
+      "hopf_candidates": []
+    },
+    "k6": {
+      "factor_range": [
+        0.01,
+        100.0
+      ],
+      "points": 81,
+      "max_spectral_abscissa": -1.2035965181564485e-06,
+      "min_spectral_abscissa": -8.086569749507424e-06,
+      "maximum_detected_roots": 1,
+      "max_equilibrium_residual": 1.0003459107073287e-18,
+      "min_scalar_slope_at_root": 15.547720165422284,
+      "hopf_candidates": []
+    },
+    "a10": {
+      "factor_range": [
+        0.01,
+        100.0
+      ],
+      "points": 81,
+      "max_spectral_abscissa": -7.447192299277405e-07,
+      "min_spectral_abscissa": -7.590320139182857e-06,
+      "maximum_detected_roots": 1,
+      "max_equilibrium_residual": 8.673617379884035e-19,
+      "min_scalar_slope_at_root": 11.48559926256531,
+      "hopf_candidates": []
+    },
+    "k13": {
+      "factor_range": [
+        0.01,
+        100.0
+      ],
+      "points": 81,
+      "max_spectral_abscissa": -7.260053554202748e-06,
+      "min_spectral_abscissa": -1.693319243295228e-05,
+      "maximum_detected_roots": 1,
+      "max_equilibrium_residual": 3.049318610115481e-20,
+      "min_scalar_slope_at_root": 119.87932917013681,
+      "hopf_candidates": []
+    },
+    "a11": {
+      "factor_range": [
+        0.01,
+        100.0
+      ],
+      "points": 81,
+      "max_spectral_abscissa": -7.2622436512410424e-06,
+      "min_spectral_abscissa": -7.581026890232033e-06,
+      "maximum_detected_roots": 1,
+      "max_equilibrium_residual": 3.049318610115481e-20,
+      "min_scalar_slope_at_root": 11.449132392764065,
+      "hopf_candidates": []
+    },
+    "k19": {
+      "factor_range": [
+        0.01,
+        100.0
+      ],
+      "points": 81,
+      "max_spectral_abscissa": -1.172233608250496e-06,
+      "min_spectral_abscissa": -7.379645413953123e-06,
+      "maximum_detected_roots": 1,
+      "max_equilibrium_residual": 1.0164395367051604e-20,
+      "min_scalar_slope_at_root": 123.4045442094448,
+      "hopf_candidates": []
+    },
+    "k4": {
+      "factor_range": [
+        0.01,
+        100.0
+      ],
+      "points": 81,
+      "max_spectral_abscissa": -7.418807196524867e-08,
+      "min_spectral_abscissa": -3.538382075897273e-05,
+      "maximum_detected_roots": 1,
+      "max_equilibrium_residual": 1.0164395367051604e-20,
+      "min_scalar_slope_at_root": 123.4045442094448,
+      "hopf_candidates": []
+    }
+  },
+  "scope": "Natural-parameter scans of detected physical branches; no global completeness claim.",
+  "independent_checks": {
+    "long_time_s": 5000000.0,
+    "long_transient_max_difference_uM": 1.329492071988625e-14,
+    "newton_success": true,
+    "newton_max_difference_uM": 1.6930901125533637e-15,
+    "newton_full_residual_inf": 2.473336205982557e-19
+  }
+}

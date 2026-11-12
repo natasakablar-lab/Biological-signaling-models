@@ -1,0 +1,8 @@
+{
+  "passed": [
+    "equilibrium action",
+    "81-point branch action",
+    "parameter change to k19",
+    "unsupported zero IL1 total clearly reported"
+  ]
+}

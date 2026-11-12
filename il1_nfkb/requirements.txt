@@ -1,0 +1,8 @@
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+plotly>=5.18
+streamlit>=1.50,<2
+sympy>=1.12
+matplotlib>=3.7
+scikit-sundae==1.2.0

@@ -1,0 +1,8 @@
+{
+  "baseline_residual_inf": 1.0164395367051604e-20,
+  "baseline_max_real_eigenvalue": -7.379645413953123e-06,
+  "independent_Newton_difference_uM": 2.581268532253489e-15,
+  "variable_parameter_Jacobian_check": "passed",
+  "boundary_case_guards": "passed",
+  "small_branch_scan": "passed"
+}

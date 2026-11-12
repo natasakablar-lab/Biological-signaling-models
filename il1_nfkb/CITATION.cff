@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this release and the original model publication."
+type: software
+title: "IL-1–NF-κB Signaling Module — Python Reconstruction, ODE and DAE Formulations, and Streamlit App"
+authors:
+  - family-names: Kablar
+    given-names: Nataša A.
+version: "3.0"
+doi: "10.5281/zenodo.24148450"
+url: "https://doi.org/10.5281/zenodo.24148450"
+license: MIT
+references:
+  - type: article
+    title: "Mathematical Model of IL -1- NFkB Biological Module"
+    authors:
+      - family-names: Kablar
+        given-names: Nataša A.
+      - family-names: Kvrgić
+        given-names: Vladimir
+    journal: "Global Journal of Mathematical Sciences"
+    year: 2012
+    volume: 1
+    issue: 1
+    start: 31
+    end: 37
+    url: "https://www.ifnaworld.org/ojs/index.php/GJMS/article/download/16/7"
