@@ -1,0 +1,5 @@
+scenario,point,V1,l1_Kuznetsov,ReG21_over_2_original_time,classification,stable_small_cycle_side_of_V1
+reference,H1,0.38424528637355454,-8.739136643858648e-05,-8.610077015250868e-07,supercritical,above
+reference,H2,6.24804793973261,-0.0001305982290719667,-6.687575392251944e-07,supercritical,below
+estimated,H1,0.3862273463589166,-0.00011156683081622966,-1.1033250937122494e-06,supercritical,above
+estimated,H2,6.148535975474384,-0.00012457613499537365,-6.342900662725974e-07,supercritical,below

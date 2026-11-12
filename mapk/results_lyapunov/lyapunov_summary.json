@@ -1,0 +1,249 @@
+{
+  "convention": "Kuznetsov l1=Re(G21)/(2*omega), raw nM coordinates, unit Euclidean q, <p,q>=1",
+  "formula_source": "https://www.ma.ic.ac.uk/~dturaev/kuznetsov.pdf, Eq. (5.62), Example 5.4",
+  "benchmark": [
+    {
+      "a": -1.0,
+      "omega": 1.7,
+      "expected": -1.1764705882352942,
+      "computed": -1.1764705882352944
+    },
+    {
+      "a": 1.0,
+      "omega": 1.7,
+      "expected": 1.1764705882352942,
+      "computed": 1.1764705882352944
+    },
+    {
+      "example": "Kuznetsov Example 5.4, omega=1, unit q",
+      "expected": -0.3,
+      "computed": -0.3000000000000002
+    }
+  ],
+  "cases": {
+    "reference_H1": {
+      "V1": 0.38424528637355454,
+      "l1": -8.739136643858648e-05,
+      "G21": [
+        -1.7220154030501736e-06,
+        -2.8981659584619167e-06
+      ],
+      "cubic_coefficient_original_time_ReG21_over_2": -8.610077015250868e-07,
+      "classification": "supercritical",
+      "stable_small_cycle_side_of_V1": "above",
+      "crossing_slope": 0.007520670113360236,
+      "equilibrium_residual": 3.3306690738754696e-16,
+      "normalization_checks": {
+        "q_norm": 1.0,
+        "p_q_error": 5.15464423084223e-17,
+        "right_eigenvector_residual": 1.0511730065850009e-17,
+        "left_eigenvector_residual": 2.8032212415081415e-17
+      },
+      "phase_invariance_error": 1.3552527156068805e-20,
+      "finite_difference_checks": [
+        {
+          "step_nM": 0.04,
+          "l1": -8.739124364009388e-05,
+          "relative_error": 1.4051558822212375e-06
+        },
+        {
+          "step_nM": 0.02,
+          "l1": -8.73913357645352e-05,
+          "relative_error": 3.5099635735881774e-07
+        },
+        {
+          "step_nM": 0.01,
+          "l1": -8.739135888674648e-05,
+          "relative_error": 8.641402814614602e-08
+        },
+        {
+          "step_nM": 0.005,
+          "l1": -8.739136502373252e-05,
+          "relative_error": 1.618985974224362e-08
+        }
+      ],
+      "G21_terms": [
+        [
+          -1.2045427537767494e-06,
+          2.9350253330148326e-06
+        ],
+        [
+          -5.3957206808313606e-08,
+          -4.700741697522323e-06
+        ],
+        [
+          -4.6351544246511066e-07,
+          -1.1324495939544259e-06
+        ]
+      ]
+    },
+    "reference_H2": {
+      "V1": 6.24804793973261,
+      "l1": -0.0001305982290719667,
+      "G21": [
+        -1.3375150784503888e-06,
+        -8.439527073839349e-07
+      ],
+      "cubic_coefficient_original_time_ReG21_over_2": -6.687575392251944e-07,
+      "classification": "supercritical",
+      "stable_small_cycle_side_of_V1": "below",
+      "crossing_slope": -0.0015545668821680756,
+      "equilibrium_residual": 2.220446049250313e-16,
+      "normalization_checks": {
+        "q_norm": 1.0,
+        "p_q_error": 9.034685151657735e-18,
+        "right_eigenvector_residual": 3.174551551924839e-17,
+        "left_eigenvector_residual": 1.1331476971127278e-16
+      },
+      "phase_invariance_error": 0.0,
+      "finite_difference_checks": [
+        {
+          "step_nM": 0.04,
+          "l1": -0.00013059892952781846,
+          "relative_error": 5.3634406587718665e-06
+        },
+        {
+          "step_nM": 0.02,
+          "l1": -0.00013059840422337382,
+          "relative_error": 1.3411468775332107e-06
+        },
+        {
+          "step_nM": 0.01,
+          "l1": -0.00013059827285958838,
+          "relative_error": 3.352849575827681e-07
+        },
+        {
+          "step_nM": 0.005,
+          "l1": -0.0001305982401536577,
+          "relative_error": 8.485330230449888e-08
+        }
+      ],
+      "G21_terms": [
+        [
+          -1.306665502202325e-06,
+          -2.9995297190660855e-07
+        ],
+        [
+          -4.060263370578778e-07,
+          -1.926676889278714e-08
+        ],
+        [
+          3.75176760809814e-07,
+          -5.247329665845392e-07
+        ]
+      ]
+    },
+    "estimated_H1": {
+      "V1": 0.3862273463589166,
+      "l1": -0.00011156683081622966,
+      "G21": [
+        -2.206650187424499e-06,
+        -2.7660357448114473e-06
+      ],
+      "cubic_coefficient_original_time_ReG21_over_2": -1.1033250937122494e-06,
+      "classification": "supercritical",
+      "stable_small_cycle_side_of_V1": "above",
+      "crossing_slope": 0.007371678104759663,
+      "equilibrium_residual": 2.42861286636753e-16,
+      "normalization_checks": {
+        "q_norm": 1.0,
+        "p_q_error": 2.4429781930188733e-17,
+        "right_eigenvector_residual": 1.3391981672066177e-17,
+        "left_eigenvector_residual": 3.5462527776284026e-17
+      },
+      "phase_invariance_error": 2.710505431213761e-20,
+      "finite_difference_checks": [
+        {
+          "step_nM": 0.04,
+          "l1": -0.00011156683125741748,
+          "relative_error": 3.9544711797054635e-09
+        },
+        {
+          "step_nM": 0.02,
+          "l1": -0.00011156683094834854,
+          "relative_error": 1.1842128166451878e-09
+        },
+        {
+          "step_nM": 0.01,
+          "l1": -0.00011156683077309562,
+          "relative_error": 3.866207186525845e-10
+        },
+        {
+          "step_nM": 0.005,
+          "l1": -0.00011156683047350936,
+          "relative_error": 3.071883481952625e-09
+        }
+      ],
+      "G21_terms": [
+        [
+          -1.205663467122453e-06,
+          3.347186994935307e-06
+        ],
+        [
+          -3.385982392539141e-07,
+          -5.056058249637492e-06
+        ],
+        [
+          -6.623884810481316e-07,
+          -1.0571644901092625e-06
+        ]
+      ]
+    },
+    "estimated_H2": {
+      "V1": 6.148535975474384,
+      "l1": -0.00012457613499537365,
+      "G21": [
+        -1.2685801325451948e-06,
+        -7.774107613031107e-07
+      ],
+      "cubic_coefficient_original_time_ReG21_over_2": -6.342900662725974e-07,
+      "classification": "supercritical",
+      "stable_small_cycle_side_of_V1": "below",
+      "crossing_slope": -0.0014523483308725438,
+      "equilibrium_residual": 2.0816681711721685e-16,
+      "normalization_checks": {
+        "q_norm": 1.0,
+        "p_q_error": 8.643770415433007e-17,
+        "right_eigenvector_residual": 1.7969158738116263e-17,
+        "left_eigenvector_residual": 1.1110897370371517e-16
+      },
+      "phase_invariance_error": 2.710505431213761e-20,
+      "finite_difference_checks": [
+        {
+          "step_nM": 0.04,
+          "l1": -0.00012457680152054202,
+          "relative_error": 5.350343935368695e-06
+        },
+        {
+          "step_nM": 0.02,
+          "l1": -0.0001245763016365397,
+          "relative_error": 1.337665244162633e-06
+        },
+        {
+          "step_nM": 0.01,
+          "l1": -0.0001245761767850081,
+          "relative_error": 3.3545457518280345e-07
+        },
+        {
+          "step_nM": 0.005,
+          "l1": -0.00012457614592620837,
+          "relative_error": 8.774421132447454e-08
+        }
+      ],
+      "G21_terms": [
+        [
+          -1.2097449559390842e-06,
+          -2.468803309360751e-07
+        ],
+        [
+          -4.1880911373279016e-07,
+          -4.432698499170834e-08
+        ],
+        [
+          3.5997393712667944e-07,
+          -4.862034453753273e-07
+        ]
+      ]
+    }
+  }
+}

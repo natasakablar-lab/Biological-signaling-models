@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this release and the original model publication."
+type: software
+title: "MAPK Signaling Module — Python Reconstruction, Dynamical Analysis and Streamlit App"
+authors:
+  - family-names: Kablar
+    given-names: Nataša A.
+version: "5.0"
+doi: "10.5281/zenodo.24148152"
+url: "https://doi.org/10.5281/zenodo.24148152"
+license: MIT
+references:
+  - type: conference-paper
+    title: "MAPK Module: Biological Basis, Structure, Mathematical Model and Dynamical Analyse"
+    authors:
+      - family-names: Kablar
+        given-names: Nataša A.
+    collection-title: "Proceedings of the 19th International Symposium on Mathematical Theory of Networks and Systems (MTNS 2010)"
+    year: 2010
+    start: 2363
+    end: 2368
+    url: "https://www.conferences.hu/mtns2010/proceedings/Papers/422_259.pdf"

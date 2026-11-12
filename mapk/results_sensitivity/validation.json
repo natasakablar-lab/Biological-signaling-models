@@ -1,0 +1,49 @@
+[
+  {
+    "scenario": "baseline",
+    "threshold_grid_difference": 4.092282068768327e-13,
+    "status": "settled_oscillations",
+    "KPP_equilibrium_nM_solver_difference": 0.0,
+    "KPP_half_amplitude_nM_solver_difference": 5.670244718203321e-09,
+    "period_s_solver_difference": 8.314864317071624e-06
+  },
+  {
+    "scenario": "reference",
+    "threshold_grid_difference": 3.036459972349803e-13,
+    "status": "settled_oscillations",
+    "KPP_equilibrium_nM_solver_difference": 0.0,
+    "KPP_half_amplitude_nM_solver_difference": 2.4294877221109346e-09,
+    "period_s_solver_difference": 4.1534449337632395e-06
+  },
+  {
+    "scenario": "k11_0.01",
+    "threshold_grid_difference": 1.2383427616668996e-12,
+    "status": "settled_oscillations",
+    "KPP_equilibrium_nM_solver_difference": 0.0,
+    "KPP_half_amplitude_nM_solver_difference": 7.289500558727013e-09,
+    "period_s_solver_difference": 2.0327414858911652e-05
+  },
+  {
+    "scenario": "k12_0.01",
+    "threshold_grid_difference": 1.8971491044794675e-12,
+    "status": "settled_oscillations",
+    "KPP_equilibrium_nM_solver_difference": 0.0,
+    "KPP_half_amplitude_nM_solver_difference": 5.406718628364615e-09,
+    "period_s_solver_difference": 3.903937567883986e-06
+  },
+  {
+    "scenario": "phosphatase_KK_0.5",
+    "threshold_grid_difference": 1.5010215292932116e-13,
+    "status": "equilibrium",
+    "KPP_equilibrium_nM_solver_difference": 0.0,
+    "KPP_half_amplitude_nM_solver_difference": 0.0
+  },
+  {
+    "scenario": "phosphatase_K_1.5",
+    "threshold_grid_difference": 5.953015858040089e-13,
+    "status": "settled_oscillations",
+    "KPP_equilibrium_nM_solver_difference": 0.0,
+    "KPP_half_amplitude_nM_solver_difference": 9.831657621361956e-08,
+    "period_s_solver_difference": 1.8942009774036705e-06
+  }
+]
